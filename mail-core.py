@@ -28,7 +28,7 @@ with smtplib.SMTP(f'localhost', 587) as smtp:
     smtp.sendmail(EMAIL_ADDRESS, EMAIL_USERADDRESS, EMAIL_MSG) #This also looks weird but you can figure this out yourself
 '''
 
-#This is for my email server that I use. It may be different for you. This is an example for people using their own domains for this.
+#This is for our email server that I use. It may be different for you. This is an example for people using their own domains for this.
 '''
 with smtplib.SMTP('smtp.porkbun.com', 587) as smtp:
     smtp.ehlo()
